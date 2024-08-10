@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+#header_aria {
+  padding: 15px 0px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+#hero_section {
+  background: #fff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #231f20;
+  font-weight: 550;
+}
+
+#main_manu {
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  position: sticky;
+  top: 0;
+  background: #fff;
+}
+
+#main_manu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a:hover {
+  color: #0573e6;
+}
+
+/* Contant Style */
+#content {
+  width: 1140px;
+  margin: 10px auto;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+#main_contant {
+  width: 70%;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+
+#content a {
+  text-decoration: none;
+}
+
+/* .child_contant {
+  padding: 10px 1%;
+  width: 30%;
+  float: left;
+  margin-right: 1%;
+} */
+
+/* footer */
+#footer_aria {
+  padding: 15px 0px;
+  text-align: center;
+}
